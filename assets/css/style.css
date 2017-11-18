@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: #3399ff;
+}
+
+.glyphicon-list-alt {
+    margin-top: 20px;
+    margin-left: 40px;
+    float: left;
+    font-size: 60px;
+}
+
+.search-section {
+    border: 5px solid black;
+}

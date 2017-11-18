@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>New York Times Search</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> <!-- font-family: 'Raleway', sans-serif; -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     
@@ -17,7 +18,31 @@
 <body>
     <div class="container">
         <div class="row">
+            <div class="jumbotron">
+                <span class="glyphicon glyphicon-list-alt"></span>
+                <h1>New York Times Search</h1>
+            </div>
+        </div>
 
+        <div class="row col-lg-12">
+            <form>
+                <div class="form-group">
+                    <label for="search-field">Search:</label>
+                    <input type="text" class="form-control" id="#search-field" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="records-number-field">Number of Records to Review:</label>
+                    <input type="text" class="form-control" id="records-number-field" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="start-year-field">Start Year (Optional):</label>
+                    <input type="text" class="form-control" id="start-year-field" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="end-year-field">End Year (Optional):</label>
+                    <input type="text" class="form-control" id="end-year-field" placeholder="">
+                </div>
+            </form>
         </div>
 
 
