@@ -3,6 +3,10 @@ h1 {
     text-align: center;
 }
 
+h4 {
+	color: grey;
+}
+
 .jumbotron {
     background-color: #3399ff;
 }
@@ -16,4 +20,9 @@ h1 {
 
 .search-section {
     border: 5px solid black;
+}
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+  color: inherit;
+  text-decoration: inherit;
 }
